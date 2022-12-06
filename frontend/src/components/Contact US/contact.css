@@ -1,0 +1,42 @@
+.contactspotify{
+    margin-left: 20vw;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(49, 46, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contactspotify input{
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(65, 63, 63);
+    font-size: 1rem;
+}
+.contactspotify button{
+    cursor: pointer;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+}
+
+.contactspotify button:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 5px black;
+}
+#input_problem{
+    height: 100px;
+}

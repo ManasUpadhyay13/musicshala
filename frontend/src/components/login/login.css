@@ -1,0 +1,71 @@
+.l{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top : 10px;
+}
+.spotify_all_black{
+    width: 150px;
+}
+
+.signText{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.login-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+}
+
+.login-forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 400px;
+    height: 45vh;
+}
+
+.login-forms p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.name , .password{
+    height: 40px;
+    width: 380px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login-submit{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(70, 226, 70);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign-p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.green{
+    color: green;
+}
+.signn{
+    cursor: pointer;
+}
+
+.error_login{
+    margin-top: 10px;
+    color: red;
+}

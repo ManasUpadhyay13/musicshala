@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+    padding-top : 30px;
+}
+
+.sign-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+}
+
+.signText{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.spotify_all_black{
+    width: 150px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 400px;
+    height: 80vh;
+}
+
+.forms p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.appear{
+    font-weight: normal;
+}
+.name , .email , .confirmEmail , .password {
+    height: 50px;
+    width: 380px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.conditions{
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.green{
+    color: green;
+}
+
+.register{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(70, 226, 70);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.login{
+    cursor: pointer;
+}
+
+.error{
+    font-size: 20px;
+    margin-top: 10px;
+    color: red;
+}
